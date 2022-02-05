@@ -8,10 +8,11 @@ if(args.Length > 0){
     String text = "";
     int maxdispline = 10;
 
+
     for(int i = 0; i < args.Length; i++){
         if(args[i] == "-h" || args[i] == "--help"){
             Console.WriteLine("textpg, MXPSQL.TextPager implemented as an application.");
-            Console.WriteLine("Usage: textpg.exe <file> [maxdispline] [-h|--help]");
+            Console.WriteLine("Usage: {textpg.exe or whatever} <file> [maxdispline] [-h|--help]");
             Console.WriteLine("\tfile: File to display.");
             Console.WriteLine("\tmaxdispline: Max number of lines to display. (optional)");
             Console.WriteLine("\t-h, --help: Prints this help message. (optional if you need to know it again)");
